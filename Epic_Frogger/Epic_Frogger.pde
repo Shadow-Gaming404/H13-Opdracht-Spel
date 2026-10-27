@@ -1,4 +1,3 @@
-//maak een functie voor tekenen van witte lijnen...waarom? leesbaarheid
 boolean Playing = true;
 boolean FrogHit = false;
 boolean Restart = false;
@@ -41,7 +40,6 @@ void setup() {
 
 
 void draw() {
-  println(keyCode);
   if (Restart) {
     RoadsCrossed = 0;
     FrogHit = false;

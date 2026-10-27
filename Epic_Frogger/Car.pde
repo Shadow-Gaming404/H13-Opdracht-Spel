@@ -28,7 +28,7 @@ class Car {
     Width = int(random(80, 151));
     Height = int(random(65, 80));
 
-    Speed = int(random(2, 10));
+    Speed = int(random(2, 6+1));
 
     RightOrLeft  = int(random(1, 2+1));
 
@@ -61,7 +61,7 @@ class Car {
       Width = int(random(80, 151));
       Height = int(random(65, 80));
 
-      Speed = int(random(2, 10));
+      Speed = int(random(2, 6+1));
 
       RightOrLeft  = int(random(1, 2+1));
 
@@ -78,7 +78,7 @@ class Car {
       Width = int(random(80, 151));
       Height = int(random(65, 80));
 
-      Speed = int(random(2, 7));
+      Speed = int(random(2, 6+1));
 
       RightOrLeft  = int(random(1, 2+1));
 
@@ -116,7 +116,7 @@ class Car {
 
     if (PlayerMoved) {
       if (CarX <= PlayerX && CarX >= PlayerX-Width && CarY <= PlayerY && CarY >= PlayerY-Height || CarX >= PlayerX && CarX <= PlayerX+50 && CarY <= PlayerY && CarY >= PlayerY-Height || CarY >= PlayerY && CarY <= PlayerY+50 && CarX <= PlayerX && CarX >= PlayerX-Width || CarY >= PlayerY && CarY <= PlayerY+50 && CarX >= PlayerX && CarX <= PlayerX+50  && PlayerY >= 100) {
-        println("plug");
+        println("pluh");
         FrogHit = true;
       }
     }
